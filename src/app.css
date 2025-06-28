@@ -111,6 +111,11 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme {
+  --breakpoint-5xl: 64rem;
+  --breakpoint-6xl: 96rem;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -130,5 +135,12 @@
 
   h2 {
     @apply text-2xl font-bold;
+  }
+
+  body {
+    min-height: 100dvh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow-x: hidden;
+    width: 100vw;
   }
 }

@@ -2,6 +2,7 @@
   import { dev } from '$app/environment'
   import { injectAnalytics } from '@vercel/analytics/sveltekit'
   import '../app.css'
+  import '$lib/styles/stars.css'
 
   injectAnalytics({ mode: dev ? 'development' : 'production' })
 
@@ -9,10 +10,15 @@
 </script>
 
 <nav class='w-full flex justify-center gap-4 px-8 py-2'>
-  <a href='/page'>Home</a>
+  <a href='/'>Home</a>
   <a href='/about'>About</a>
   <a href='/contact'>Contact</a>
 </nav>
-<div class='flex flex-col items-center justify-center'>
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+<div class='flex flex-col items-center justify-center h-screen'>
   {@render children()}
 </div>
