@@ -1,7 +1,12 @@
+<script>
+  const { children, class: className, ...others } = $props();
+</script>
+
 <div
-  class='letter flex flex-col items-center w-11/12 md:w-8/12 max-w-6xl h-11/12 p-4 pt-8 pb-16 mb-16 mt-4'
+  {...others}
+  class={`letter flex flex-col items-center w-11/12 md:w-8/12 max-w-6xl p-4 pt-8 pb-16 mb-16 ${className}`}
 >
-  <slot></slot>
+  {@render children()}
 </div>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <script lang='ts'>
   import type { PageProps } from './$types'
   import ParchmentBG from '$lib/components/ParchmentBG.svelte'
-  import { onDestroy } from 'svelte'
+  import { onDestroy, onMount } from 'svelte'
   import Button from '@/lib/components/ui/button/button.svelte'
   import quizStore from '@/stores/quizState'
 
@@ -40,10 +40,17 @@
     }
     nextQuestion()
   }
+
+  onMount(() => {
+    if (quizState.currentQuestionIndex <= quizState.answers.length) {
+      isAnswerSubmitted = true
+      selectedAnswerIndex = quizState.answers[quizState.currentQuestionIndex]
+    }
+  })
 </script>
 
-<ParchmentBG>
-  <div class='flex justify-between items-center w-full mb-8'>
+<ParchmentBG class='mt-4 xl:mt-16'>
+  <div class='flex flex-col xl:flex-row gap-4 justify-between items-center w-full mb-8'>
     <Button class='cursor-pointer' onclick={resetQuiz}>Reset Quiz</Button>
     <h1 class='text-3xl font-bold mb-4'>Grade 1 Question {quizState.currentQuestionIndex + 1}</h1>
     <span>{quizState.totalScore === 1 ? '1 point' : `${quizState.totalScore} points`}</span>
@@ -61,7 +68,7 @@
         <label
           for={`answer${i}`}
           class=
-          'group px-4 py-2 border-2 rounded-xl w-xl 
+          'group px-4 py-2 border-2 rounded-xl xl:w-xl 
           cursor-pointer has-checked:border-slate-400 has-checked:bg-blue-100 has-checked:text-blue-800 
           hover:bg-blue-50 hover:text-blue-800 transition-colors'
         >
