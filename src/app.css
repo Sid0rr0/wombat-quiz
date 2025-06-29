@@ -137,6 +137,10 @@
     @apply text-2xl font-bold;
   }
 
+  h3 {
+    @apply text-xl font-semibold;
+  }
+
   body {
     min-height: 100dvh;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);

@@ -1,0 +1,2716 @@
+[
+  {
+    "text": "Which Ministry of Magic department(s) and/or committee(s) would you contact to resolve each of the following dilemmas?",
+    "subquestion": "Your neighbour is concealing a stash of flying carpets, some of which he is allowing to fly loose around his back garden.",
+    "options": [
+      {
+        "answer": "Wizengamot",
+        "points": 4
+      },
+      {
+        "answer": "Department of International Magical Co-operation",
+        "points": 1
+      },
+      {
+        "answer": "Misuse of Muggle Artefacts Office",
+        "points": 0
+      },
+      {
+        "answer": "Obliviators",
+        "points": 0
+      },
+      {
+        "answer": "All of the above",
+        "points": 2
+      },
+      {
+        "answer": "None of the above",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 1,
+    "part": 1,
+    "partNumber": 1,
+    "section": ""
+  },
+  {
+    "text": "Which Ministry of Magic department(s) and/or committee(s) would you contact to resolve each of the following dilemmas?",
+    "subquestion": "Your friend C possesses a Muggle Penny Farthing (old bicycle) that has been enchanted to skim an inch above the ground, achieving speeds of over 100mph. C did not personally enchant the Penny Farthing, never rides it and merely wishes to keep it 'for sentimental reasons' as it was her grandmother's.",
+    "options": [
+      {
+        "answer": "Department of Magical Transport",
+        "points": 2
+      },
+      {
+        "answer": "Improper Use of Magic Office",
+        "points": 0
+      },
+      {
+        "answer": "Obliviators",
+        "points": 0
+      },
+      {
+        "answer": "Misuse of Muggle Artefacts Office",
+        "points": 4
+      },
+      {
+        "answer": "Committee on Experimental Charms",
+        "points": 0
+      },
+      {
+        "answer": "None of the above",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 2,
+    "part": 1,
+    "partNumber": 2,
+    "section": ""
+  },
+  {
+    "text": "Which Ministry of Magic department(s) and/or committee(s) would you contact to resolve each of the following dilemmas?",
+    "subquestion": "Your sixteen year old nephew, D, has hexed his seventeen-year-old sister, E. E has retaliated with a Stunning Spell that missed D and hit a Muggle motorist, who smashed into a lamppost.",
+    "options": [
+      {
+        "answer": "Department of Magical Accidents and Catastrophes",
+        "points": 0
+      },
+      {
+        "answer": "Department of Magical Accidents and Catastrophes and Obliviator Squad",
+        "points": 4
+      },
+      {
+        "answer": "Department of Magical Accidents and Catastrophes, Obliviator Squad and Improper Use of Magic Office",
+        "points": 0
+      },
+      {
+        "answer": "Department of Magical Accidents and Catastrophes, Obliviator Squad, Improper Use of Magic Office and Wizengamot",
+        "points": 2
+      }
+    ],
+    "topic": "",
+    "number": 3,
+    "part": 1,
+    "partNumber": 3,
+    "section": ""
+  },
+  {
+    "text": "Which Ministry of Magic department(s) and/or committee(s) would you contact to resolve each of the following dilemmas?",
+    "subquestion": "Your Friends wizard A and wizard B are in dispute over which of them owns a field in which Mooncalfs dance periodically. An accuses B of using nightly a Summoning Charm to collect the precious Mooncalf dung which is rightfully A's.",
+    "options": [
+      {
+        "answer": "Improper Use of Magic Office",
+        "points": 0
+      },
+      {
+        "answer": "Wizengamot",
+        "points": 4
+      },
+      {
+        "answer": "Pest Advisory Board",
+        "points": 0
+      },
+      {
+        "answer": "Improper Use of Magic Office and Wizengamot",
+        "points": 2
+      },
+      {
+        "answer": "Improper Use of Magic Office and Pest Advisory Board",
+        "points": 0
+      },
+      {
+        "answer": "Wizengamot and Pest Advisory Board",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 4,
+    "part": 1,
+    "partNumber": 4,
+    "section": ""
+  },
+  {
+    "text": "Which Ministry of Magic department(s) and/or committee(s) would you contact to resolve each of the following dilemmas?",
+    "subquestion": "Witch F fed love potion to a Muggle man, who has married her. When you went around with a wedding gift you discovered that she is using him as an occasional table.",
+    "options": [
+      {
+        "answer": "Auror Office",
+        "points": 2
+      },
+      {
+        "answer": "Misuse of Magic Office",
+        "points": 0
+      },
+      {
+        "answer": "Obliviators",
+        "points": 0
+      },
+      {
+        "answer": "Wizengamot",
+        "points": 0
+      },
+      {
+        "answer": "All of the above",
+        "points": 4
+      },
+      {
+        "answer": "None of the above",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 5,
+    "part": 1,
+    "partNumber": 5,
+    "section": ""
+  },
+  {
+    "text": "Which of the following should be most SEVERELY punished by the Wizengamot?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "The injury of three Muggles due to a poorly performed Forgetfulness Charm",
+        "points": 0
+      },
+      {
+        "answer": "The death of a chicken due to a poorly aimed Bat-Bogey Hex",
+        "points": 1
+      },
+      {
+        "answer": "The use of the Cruciatus Curse on a shark about to attack a Muggle",
+        "points": 2
+      },
+      {
+        "answer": "The use of the Imperius Curse on a Muggle mugger",
+        "points": 4
+      }
+    ],
+    "topic": "",
+    "number": 6,
+    "part": 1,
+    "partNumber": 6,
+    "section": ""
+  },
+  {
+    "text": "Which of the following should receive the LIGHTEST punishment from the Wizengamot?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Horns created accidentally on a culprit's mother, caused by broken wand",
+        "points": 4
+      },
+      {
+        "answer": "Jelly-Legs Jinx performed on threatening Muggle",
+        "points": 0
+      },
+      {
+        "answer": "Breeding fanged Puffskeins",
+        "points": 1
+      },
+      {
+        "answer": "Underage witch performs Cleaning Charms in privacy of own home",
+        "points": 4
+      }
+    ],
+    "topic": "",
+    "number": 7,
+    "part": 1,
+    "partNumber": 7,
+    "section": ""
+  },
+  {
+    "text": "Which of the following does NOT require a Ministry of Magic licence?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Crup ownership",
+        "points": 0
+      },
+      {
+        "answer": "Sale of magical artefacts",
+        "points": 1
+      },
+      {
+        "answer": "House-elf ownership",
+        "points": 4
+      },
+      {
+        "answer": "Apparition",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 8,
+    "part": 1,
+    "partNumber": 8,
+    "section": ""
+  },
+  {
+    "text": "Which of the following wizarding laws, in your view, stands in most urgent need of change?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "The detection of underage magic in all-magic households (currently impossible)",
+        "points": 4
+      },
+      {
+        "answer": "The ban on goblin possession of wands (ought to be lifted)",
+        "points": 0
+      },
+      {
+        "answer": "The re-classification of centaurs and merpeople (ought to take their views into account)",
+        "points": 1
+      },
+      {
+        "answer": "The guidelines on house-elf welfare (need to be enforced)",
+        "points": 4
+      },
+      {
+        "answer": "Definitions of 'Muggle-baiting' (needs to be made less stringent)",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 9,
+    "part": 1,
+    "partNumber": 9,
+    "section": ""
+  },
+  {
+    "text": "Which mode of transportation would you advise for a young mother travelling with one-year-old twins with a low boredom threshold, her grandmother, who suffers from severe motion sickness, and her husband, who has never mastered the three ‘D's?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Apparition",
+        "points": 4
+      },
+      {
+        "answer": "Broomsticks",
+        "points": 0
+      },
+      {
+        "answer": "Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Knight Bus",
+        "points": 0
+      },
+      {
+        "answer": "Portkey",
+        "points": 1
+      }
+    ],
+    "topic": "",
+    "number": 10,
+    "part": 1,
+    "partNumber": 10,
+    "section": ""
+  },
+  {
+    "text": "Which of the following unorthodox means of transportation is considered the most serious breach of the International Statute of Secrecy?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Thestrals",
+        "points": 0
+      },
+      {
+        "answer": "Abraxan horse-drawn giant carriage",
+        "points": 0
+      },
+      {
+        "answer": "Hippogriff",
+        "points": 0
+      },
+      {
+        "answer": "Flying Muggle vehicle (eg. car, motorcycle)",
+        "points": 4
+      },
+      {
+        "answer": "Underwater ship",
+        "points": 2
+      }
+    ],
+    "topic": "",
+    "number": 11,
+    "part": 1,
+    "partNumber": 11,
+    "section": ""
+  },
+  {
+    "text": "Which mode(s) of transportation could you use to reach/enter each of the following wizarding institutions?",
+    "subquestion": "Azkaban",
+    "options": [
+      {
+        "answer": "Brooms",
+        "points": 4
+      },
+      {
+        "answer": "Brooms/Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Knight Bus",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo Powder/Knight Bus",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo Powder/Knight Bus/Apparition",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 12,
+    "part": 1,
+    "partNumber": 12,
+    "section": ""
+  },
+  {
+    "text": "Which mode(s) of transportation could you use to reach/enter each of the following wizarding institutions?",
+    "subquestion": "Gringotts",
+    "options": [
+      {
+        "answer": "Brooms",
+        "points": 4
+      },
+      {
+        "answer": "Brooms/Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Knight Bus",
+        "points": 4
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus",
+        "points": 1
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus/Apparition",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 13,
+    "part": 1,
+    "partNumber": 13,
+    "section": ""
+  },
+  {
+    "text": "Which mode(s) of transportation could you use to reach/enter each of the following wizarding institutions?",
+    "subquestion": "Hogwarts",
+    "options": [
+      {
+        "answer": "Brooms",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Knight Bus",
+        "points": 4
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus",
+        "points": 2
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus/Apparition",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 14,
+    "part": 1,
+    "partNumber": 14,
+    "section": ""
+  },
+  {
+    "text": "Which mode(s) of transportation could you use to reach/enter each of the following wizarding institutions?",
+    "subquestion": "Ministry of Magic",
+    "options": [
+      {
+        "answer": "Brooms",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Knight Bus",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo powder/Knight Bus/Apparition",
+        "points": 4
+      }
+    ],
+    "topic": "",
+    "number": 15,
+    "part": 1,
+    "partNumber": 15,
+    "section": ""
+  },
+  {
+    "text": "St Mungo's",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Brooms",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Brooms/Knight Bus",
+        "points": 4
+      },
+      {
+        "answer": "Brooms/Floo Powder/Knight Bus",
+        "points": 2
+      },
+      {
+        "answer": "Brooms/Floo Powder/Knight Bus/Apparition",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 16,
+    "part": 1,
+    "partNumber": 16,
+    "section": ""
+  },
+  {
+    "text": "Which of the following would, in your opinion, provide the best security for a convention of broomstick salesmen in a large, Firebolt-shaped marquee?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Fidelius Charm",
+        "points": 0
+      },
+      {
+        "answer": "Muggle-Repelling Charm",
+        "points": 4
+      },
+      {
+        "answer": "Confundus Charm",
+        "points": 2
+      },
+      {
+        "answer": "Disillusionment Charm",
+        "points": 0
+      },
+      {
+        "answer": "Unplottable marquee",
+        "points": 0
+      },
+      {
+        "answer": "Forgetfulness Charm",
+        "points": 0
+      },
+      {
+        "answer": "Giant three-headed dog",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 17,
+    "part": 1,
+    "partNumber": 17,
+    "section": ""
+  },
+  {
+    "text": "Which of the following should not be used in cooking?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Alihotsy leaves",
+        "points": 2
+      },
+      {
+        "answer": "Bubotuber pus",
+        "points": 4
+      },
+      {
+        "answer": "Daisy roots",
+        "points": 0
+      },
+      {
+        "answer": "Dragon blood",
+        "points": 0
+      },
+      {
+        "answer": "Mandrake leaves",
+        "points": 0
+      },
+      {
+        "answer": "Murtlap tentacles",
+        "points": 0
+      },
+      {
+        "answer": "Shrake",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 18,
+    "part": 1,
+    "partNumber": 18,
+    "section": ""
+  },
+  {
+    "text": "Which of the following would most effectively clean up a spillage of wart cap powder?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Deletrius",
+        "points": 0
+      },
+      {
+        "answer": "Diffindo",
+        "points": 0
+      },
+      {
+        "answer": "Episkey",
+        "points": 2
+      },
+      {
+        "answer": "Evanesco",
+        "points": 4
+      },
+      {
+        "answer": "Scourgify",
+        "points": 0
+      },
+      {
+        "answer": "Tergeo",
+        "points": 0
+      },
+      {
+        "answer": "Mrs Scower's All-Purpose Magical Mess Remover",
+        "points": 1
+      }
+    ],
+    "topic": "",
+    "number": 19,
+    "part": 1,
+    "partNumber": 19,
+    "section": ""
+  },
+  {
+    "text": "A Doxy bite can be healed most quickly and safely using",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Bubotuber pus",
+        "points": 0
+      },
+      {
+        "answer": "Bundimun secretion",
+        "points": 0
+      },
+      {
+        "answer": "Dittany",
+        "points": 2
+      },
+      {
+        "answer": "Dr Ubbly's Oblivious Unction",
+        "points": 4
+      },
+      {
+        "answer": "Murtlap essence",
+        "points": 1
+      },
+      {
+        "answer": "Reparo",
+        "points": 0
+      },
+      {
+        "answer": "Skele-Gro",
+        "points": 0
+      },
+      {
+        "answer": "Spello-tape",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 20,
+    "part": 1,
+    "partNumber": 20,
+    "section": ""
+  },
+  {
+    "text": "Which of the following commonly held wizarding beliefs is actually true?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "If an inanimate object appears to think for itself, Dark Magic has been involved in its creation",
+        "points": 0
+      },
+      {
+        "answer": "The use of magic in front of a Muggle is prohibited unless the witch or wizard is under threat of personal injury",
+        "points": 1
+      },
+      {
+        "answer": "Releasing a Portkey before it has arrived will result in death or serious injury.",
+        "points": 0
+      },
+      {
+        "answer": "'Finite Incantatem' should be used as a precaution when a Muggle rings the doorbell.",
+        "points": 4
+      },
+      {
+        "answer": "Bad luck can be prevented by turning three times on the spot and deliberately Splinching one's thumbs.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 21,
+    "part": 1,
+    "partNumber": 21,
+    "section": ""
+  },
+  {
+    "text": "Which of the following small creatures would you CHOOSE to accompany you on a perilous journey?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Augurey",
+        "points": 0
+      },
+      {
+        "answer": "Crup",
+        "points": 2
+      },
+      {
+        "answer": "Jarvey",
+        "points": 0
+      },
+      {
+        "answer": "Kneazle",
+        "points": 4
+      },
+      {
+        "answer": "Murtlap",
+        "points": 0
+      },
+      {
+        "answer": "Niffler",
+        "points": 1
+      },
+      {
+        "answer": "Runespoor",
+        "points": 1
+      }
+    ],
+    "topic": "",
+    "number": 22,
+    "part": 1,
+    "partNumber": 22,
+    "section": ""
+  },
+  {
+    "text": "Which of the Following is NOT listed as a pest by the Pest Advisory Board?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Bundimun",
+        "points": 0
+      },
+      {
+        "answer": "Chizpurfle",
+        "points": 0
+      },
+      {
+        "answer": "Doxy",
+        "points": 0
+      },
+      {
+        "answer": "Gnome",
+        "points": 0
+      },
+      {
+        "answer": "Horklump",
+        "points": 0
+      },
+      {
+        "answer": "Knarl",
+        "points": 4
+      },
+      {
+        "answer": "Pixie",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 23,
+    "part": 1,
+    "partNumber": 23,
+    "section": ""
+  },
+  {
+    "text": "A dog acting in a suspiciously un-canine manner is most likely to be",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "An Animagus",
+        "points": 4
+      },
+      {
+        "answer": "A Boggart",
+        "points": 0
+      },
+      {
+        "answer": "A Crup (or part Crup)",
+        "points": 1
+      },
+      {
+        "answer": "A Grim",
+        "points": 0
+      },
+      {
+        "answer": "Imperiused",
+        "points": 0
+      },
+      {
+        "answer": "Magically Trained",
+        "points": 2
+      },
+      {
+        "answer": "A Patronus",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 24,
+    "part": 1,
+    "partNumber": 24,
+    "section": ""
+  },
+  {
+    "text": "Which of the following plants has NO curative, restorative or protective properties?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Alihotsy shrub",
+        "points": 0
+      },
+      {
+        "answer": "Belladonna",
+        "points": 0
+      },
+      {
+        "answer": "Bubotuber",
+        "points": 0
+      },
+      {
+        "answer": "Snargaluff tree",
+        "points": 0
+      },
+      {
+        "answer": "Venomous Tentacula",
+        "points": 4
+      },
+      {
+        "answer": "Wolfsbane",
+        "points": 0
+      },
+      {
+        "answer": "Whomping Willow",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 25,
+    "part": 1,
+    "partNumber": 25,
+    "section": ""
+  },
+  {
+    "text": "Which of the following statements is TRUE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Hags eat small children",
+        "points": 0
+      },
+      {
+        "answer": "Inferi cannot speak",
+        "points": 0
+      },
+      {
+        "answer": "Goblins fear sunlight",
+        "points": 0
+      },
+      {
+        "answer": "There are no female centaurs",
+        "points": 5
+      },
+      {
+        "answer": "Vampire bites are curable nowadays",
+        "points": 3
+      }
+    ],
+    "topic": "",
+    "number": 26,
+    "part": 2,
+    "partNumber": 1,
+    "section": ""
+  },
+  {
+    "text": "Which of the following statements is FALSE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Ghosts can cause movement of both liquid and gas.",
+        "points": 0
+      },
+      {
+        "answer": "Freshwater merpeople are less warlike than salt.",
+        "points": 5
+      },
+      {
+        "answer": "The werewolf's snout is shorter than that of the true wolf.",
+        "points": 0
+      },
+      {
+        "answer": "There are no male Veela.",
+        "points": 0
+      },
+      {
+        "answer": "Hags have four toes on each foot.",
+        "points": 1
+      }
+    ],
+    "topic": "",
+    "number": 27,
+    "part": 2,
+    "partNumber": 2,
+    "section": ""
+  },
+  {
+    "text": "Which of the following are considered MOST dangerous by the Ministry of Magic?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Dementors",
+        "points": 0
+      },
+      {
+        "answer": "Hags",
+        "points": 0
+      },
+      {
+        "answer": "Inferi",
+        "points": 3
+      },
+      {
+        "answer": "Vampires",
+        "points": 0
+      },
+      {
+        "answer": "Werewolves",
+        "points": 5
+      }
+    ],
+    "topic": "",
+    "number": 28,
+    "part": 2,
+    "partNumber": 3,
+    "section": ""
+  },
+  {
+    "text": "Which of the following are considered AMORTAL (have never died, and can never die) by the Ministry of Magic?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Dementors",
+        "points": 1
+      },
+      {
+        "answer": "Ghosts",
+        "points": 0
+      },
+      {
+        "answer": "Inferi",
+        "points": 0
+      },
+      {
+        "answer": "Poltergeists",
+        "points": 5
+      },
+      {
+        "answer": "Vampires",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 29,
+    "part": 2,
+    "partNumber": 4,
+    "section": ""
+  },
+  {
+    "text": "Which (still unresolved) issue do most historians believe triggered the infamous goblin rebellion of 1612?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Lack of goblin representation on the Wizengamot?",
+        "points": 3
+      },
+      {
+        "answer": "Wizard attempts to enslave goblins and use as house-elves?",
+        "points": 0
+      },
+      {
+        "answer": "Wizard refusal to grant goblins the right to carry a wand?",
+        "points": 5
+      },
+      {
+        "answer": "Attempt of wizards to regain control of Gringotts bank?",
+        "points": 0
+      },
+      {
+        "answer": "Series of brutal goblin-slayings by wizard murderer Yardley Platt",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 30,
+    "part": 2,
+    "partNumber": 5,
+    "section": ""
+  },
+  {
+    "text": "Which of the following statements on giants is TRUE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Giant clans are matriarchal (females in charge)",
+        "points": 0
+      },
+      {
+        "answer": "Female giants are usually larger than males",
+        "points": 0
+      },
+      {
+        "answer": "Giants' eyesight is very poor compared with that of humans",
+        "points": 0
+      },
+      {
+        "answer": "Giants are nocturnal",
+        "points": 3
+      },
+      {
+        "answer": "Many giants are cannibals",
+        "points": 5
+      }
+    ],
+    "topic": "",
+    "number": 31,
+    "part": 2,
+    "partNumber": 6,
+    "section": ""
+  },
+  {
+    "text": "Which of the following statements on house-elves is FALSE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "House-elves have an average life-expectancy of 200 years",
+        "points": 0
+      },
+      {
+        "answer": "A house-elf's allegiance is foremost to its house (rather than to the inhabitants of the house)",
+        "points": 1
+      },
+      {
+        "answer": "House-elves cannot be ordered to kill themselves",
+        "points": 5
+      },
+      {
+        "answer": "House-elf magic is sufficiently powerful to override wizards' enchantments",
+        "points": 0
+      },
+      {
+        "answer": "House-elves breed infrequently and then only with their masters' permission",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 32,
+    "part": 2,
+    "partNumber": 7,
+    "section": ""
+  },
+  {
+    "text": "In a recent Ministry of Magic poll, what was identified as the issue most concerning the wizarding community at the present time?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Insufficient information given by the Ministry of Magic regarding the return of Lord Voldemort",
+        "points": 5
+      },
+      {
+        "answer": "Insufficient action taken by the Ministry of Magic to fight Lord Voldemort",
+        "points": 3
+      },
+      {
+        "answer": "Inadequate Ministry of Magic resources devoted to the protection of the wizarding community",
+        "points": 0
+      },
+      {
+        "answer": "Over-reaction of Ministry of Magic to the return of Lord Voldemort, which is the best thing that has happened to the wizarding community in many years",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 33,
+    "part": 2,
+    "partNumber": 8,
+    "section": ""
+  },
+  {
+    "text": "According to a recent article in the Daily Prophet, which subject at Hogwarts School of Witchcraft and Wizardry has been complained about by parents more than any other (over 100-year period)?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Care of Magical Creatures",
+        "points": 3
+      },
+      {
+        "answer": "Defence Against the Dark Arts",
+        "points": 0
+      },
+      {
+        "answer": "History of Magic",
+        "points": 0
+      },
+      {
+        "answer": "Muggle Studies",
+        "points": 5
+      }
+    ],
+    "topic": "",
+    "number": 34,
+    "part": 2,
+    "partNumber": 9,
+    "section": ""
+  },
+  {
+    "text": "What percentage of wizards and witches believe that Weather-Modifying Charms should be regulated due to their effect upon the environment? (Figures collected by the Committee for Experimental Charms)",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "3%",
+        "points": 0
+      },
+      {
+        "answer": "33%",
+        "points": 0
+      },
+      {
+        "answer": "53%",
+        "points": 5
+      },
+      {
+        "answer": "93%",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 35,
+    "part": 2,
+    "partNumber": 10,
+    "section": ""
+  },
+  {
+    "text": "Which health scare at St Mungo's Hospital for Magical Maladies and Injuries has recently caused widespread panic? (Source: St Mungo's Admissions Department)",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Suspected brain damage due to the Imperius Curse",
+        "points": 3
+      },
+      {
+        "answer": "Suspected death due to Thestral sightings",
+        "points": 0
+      },
+      {
+        "answer": "Spate of suspected werewolf bites",
+        "points": 5
+      },
+      {
+        "answer": "Uncontrollable bleeding due to 'Nosebleed Nougat'",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 36,
+    "part": 2,
+    "partNumber": 11,
+    "section": ""
+  },
+  {
+    "text": "What change would 18% of wizards like to see to the requirements for membership of the Wizengamot? (source: Ministry of Magic poll)",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Average age lowered from 87",
+        "points": 0
+      },
+      {
+        "answer": "Proof of pure-blood status",
+        "points": 5
+      },
+      {
+        "answer": "Maximum of three years in post",
+        "points": 0
+      },
+      {
+        "answer": "Goblin representation",
+        "points": 1
+      }
+    ],
+    "topic": "",
+    "number": 37,
+    "part": 2,
+    "partNumber": 12,
+    "section": ""
+  },
+  {
+    "text": "Assuming that you already have a wand, which THREE of the following would you consider indispensable in case of trouble?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Anti-Muggle doorknob",
+        "points": 0
+      },
+      {
+        "answer": "Broomstick",
+        "points": 5
+      },
+      {
+        "answer": "Cauldron",
+        "points": 0
+      },
+      {
+        "answer": "Crystal ball",
+        "points": 0
+      },
+      {
+        "answer": "Extendable Ear",
+        "points": 0
+      },
+      {
+        "answer": "Floo Powder",
+        "points": 0
+      },
+      {
+        "answer": "Foe-Glass",
+        "points": 3
+      },
+      {
+        "answer": "Hand of Glory",
+        "points": 1
+      },
+      {
+        "answer": "Invisibility Cloak",
+        "points": 0
+      },
+      {
+        "answer": "Lunascope",
+        "points": 2
+      },
+      {
+        "answer": "Omnioculars",
+        "points": 0
+      },
+      {
+        "answer": "Parchment",
+        "points": 0
+      },
+      {
+        "answer": "Pensieve",
+        "points": 0
+      },
+      {
+        "answer": "Peruvian Instant Darkness Powder",
+        "points": 0
+      },
+      {
+        "answer": "Potion-making kit",
+        "points": 0
+      },
+      {
+        "answer": "Quick-Quotes Quill",
+        "points": 0
+      },
+      {
+        "answer": "Remembrall",
+        "points": 0
+      },
+      {
+        "answer": "Revealer",
+        "points": 0
+      },
+      {
+        "answer": "Scales",
+        "points": 0
+      },
+      {
+        "answer": "Secrecy Sensor",
+        "points": 0
+      },
+      {
+        "answer": "Sneakoscope",
+        "points": 0
+      },
+      {
+        "answer": "Telescope",
+        "points": 0
+      },
+      {
+        "answer": "Time-Turner",
+        "points": 0
+      },
+      {
+        "answer": "Two-way mirror",
+        "points": 0
+      },
+      {
+        "answer": "Wizarding Wireless Network",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 38,
+    "part": 2,
+    "partNumber": 13,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is the ONLY magical invention whose effect has not yet been duplicated FULLY by Muggle ingenuity?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Flying broomstick",
+        "points": 0
+      },
+      {
+        "answer": "Mrs Scower's All-Purpose Magical Mess Remover",
+        "points": 5
+      },
+      {
+        "answer": "Omnioculars",
+        "points": 0
+      },
+      {
+        "answer": "\"Reparo\"",
+        "points": 3
+      },
+      {
+        "answer": "Self-ironing robes",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 39,
+    "part": 2,
+    "partNumber": 14,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is the ONLY Muggle invention whose effects cannot be duplicated FULLY by magic?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Aeroplane",
+        "points": 0
+      },
+      {
+        "answer": "Car",
+        "points": 0
+      },
+      {
+        "answer": "Computer",
+        "points": 1
+      },
+      {
+        "answer": "Telephone",
+        "points": 0
+      },
+      {
+        "answer": "Television",
+        "points": 5
+      }
+    ],
+    "topic": "",
+    "number": 40,
+    "part": 2,
+    "partNumber": 15,
+    "section": ""
+  },
+  {
+    "text": "The following beliefs are all widely held in the wizarding world, but only ONE is actually TRUE. (According to the latest research from the Institute of Muggle Studies) Which is it?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Muggle-born witches/wizards are more likely to produce Squib children than those who have one or more wizarding parents.",
+        "points": 0
+      },
+      {
+        "answer": "Muggle-born witches/wizards usually have a witch or wizard ancestor somewhere in their family tree, though s/he may be generations back.",
+        "points": 0
+      },
+      {
+        "answer": "Muggle-born witches/wizards are generally less prone to certain magical illnesses than those who have one or more wizarding parent.",
+        "points": 0
+      },
+      {
+        "answer": "Muggle-born witches/wizards are generally slower to show signs of magic in childhood than those who have one or more wizarding parent.",
+        "points": 0
+      },
+      {
+        "answer": "Muggle-born witches/wizards have great natural rhythm.",
+        "points": 5
+      }
+    ],
+    "topic": "",
+    "number": 41,
+    "part": 2,
+    "partNumber": 16,
+    "section": ""
+  },
+  {
+    "text": "Which of the following statements is FALSE? (According to the latest research from the Institute of Muggle Studies)",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "It is possible for a Muggle to produce elementary magic if they have access to a wand and a book of spells.",
+        "points": 5
+      },
+      {
+        "answer": "It is possible for a Muggle to inadvertently stumble upon magically protected areas such as Diagon Alley and St Mungo's Hospital for Magical Maladies and Injuries.",
+        "points": 0
+      },
+      {
+        "answer": "It is possible for a Muggle to see and correctly identify magical creatures.",
+        "points": 0
+      },
+      {
+        "answer": "It is possible for a Muggle to see and yet deny the existence of magical creatures, even without magical intervention.",
+        "points": 0
+      },
+      {
+        "answer": "It is possible for a Muggle to believe in impossibilities.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 42,
+    "part": 2,
+    "partNumber": 17,
+    "section": ""
+  },
+  {
+    "text": "Muggles are:",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Ignorant",
+        "points": 0
+      },
+      {
+        "answer": "In danger",
+        "points": 5
+      },
+      {
+        "answer": "Inferior to wizards",
+        "points": 0
+      },
+      {
+        "answer": "Insensitive to their surroundings",
+        "points": 3
+      },
+      {
+        "answer": "Interesting",
+        "points": 1
+      },
+      {
+        "answer": "Irritating facts of life",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 43,
+    "part": 2,
+    "partNumber": 18,
+    "section": ""
+  },
+  {
+    "text": "In your opinion, which of the following contributed MOST to the introduction of the International Statute of Wizarding Secrecy in 1692? Choose ONE.",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "widespread persecution of wizarding children by Muggles",
+        "points": -1
+      },
+      {
+        "answer": "escalating attempts by Muggles to force witches and wizards to perform magic for Muggle ends",
+        "points": 5
+      },
+      {
+        "answer": "escalating attempts by Muggles to force witches and wizards to teach them magic",
+        "points": 3
+      },
+      {
+        "answer": "increasing numbers of witch-burnings",
+        "points": 0
+      },
+      {
+        "answer": "increasing numbers of Muggles being burned in mistake for witches",
+        "points": 1
+      },
+      {
+        "answer": "failure of Ministry of Magic Delegation to Muggle King and Queen (William and Mary) begging for protection under Muggle law",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 44,
+    "part": 3,
+    "partNumber": 1,
+    "section": ""
+  },
+  {
+    "text": "Which of the following did NOT provoke one of the bloody goblin rebellions of the 17th and 18th centuries? Choose ONE.",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "the allegation by goblin king Ragnuk the First that Godric Gryffindor had stolen his sword",
+        "points": -1
+      },
+      {
+        "answer": "the pursuit and imprisonment of Ug the Unreliable, who had been peddling Leprechaun gold",
+        "points": 1
+      },
+      {
+        "answer": "the accidental death of Nagnok, Gringotts Goblin, at the hands of an untrained security troll sent by the Ministry of Magic",
+        "points": 0
+      },
+      {
+        "answer": "the imprisonment of the notoriously violent Hodrod the Horny-Handed, who had attempted to kill three wizards",
+        "points": 5
+      },
+      {
+        "answer": "the public ducking in the village pond, by a gang of young wizards, of goblin activist Urg the Unclean",
+        "points": 1
+      },
+      {
+        "answer": "The Ministry of Magic Decree of 1631, preventing all magical beings other than wizards carrying a wand.",
+        "points": -5
+      }
+    ],
+    "topic": "",
+    "number": 45,
+    "part": 3,
+    "partNumber": 2,
+    "section": ""
+  },
+  {
+    "text": "Choose the Ministry of Magic decision that, in your estimation, had the MOST DAMAGING effect on present day wizarding life.",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "The creation of the International Statute of Wizarding Secrecy in 1692.",
+        "points": -1
+      },
+      {
+        "answer": "The defeat of the Appeal Against House-Elf Slavery in 1973.",
+        "points": 2
+      },
+      {
+        "answer": "The drive into hiding of the surviving giants in the early 1980s.",
+        "points": 4
+      },
+      {
+        "answer": "The 1865 decision to leave full control of Gringotts in goblin hands.",
+        "points": 0
+      },
+      {
+        "answer": "The Wand Ban of 1631, which forbade Non-Human Magical Beings to carry wands.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 46,
+    "part": 3,
+    "partNumber": 3,
+    "section": ""
+  },
+  {
+    "text": "In your opinion, which of the same Ministry of Magic decisions have had the BEST effect on present day wizarding life?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "The creation of the International Statute of Wizarding Secrecy in 1692.",
+        "points": 4
+      },
+      {
+        "answer": "The defeat of the Appeal Against House-Elf Slavery in 1973.",
+        "points": 0
+      },
+      {
+        "answer": "The drive into hiding of the surviving giants in the early 1980s.",
+        "points": -5
+      },
+      {
+        "answer": "The 1865 decision to leave full control of Gringotts in goblin hands.",
+        "points": 0
+      },
+      {
+        "answer": "The Wand Ban of 1631, which forbade Non-Human Magical Beings to carry wands.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 47,
+    "part": 3,
+    "partNumber": 4,
+    "section": ""
+  },
+  {
+    "text": "Which of the following popular historical theories have now been proven to be TRUE? Choose the correct THREE.",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "The oldest building in Diagon Alley is Gringotts Bank; the other shops grew up around it.",
+        "points": -1
+      },
+      {
+        "answer": "Towards the end of his life, Salazar Slytherin reconciled with the other Founders of Hogwarts School and returned to the castle to die.",
+        "points": 2
+      },
+      {
+        "answer": "The Muggle 'War of the Roses' began as a dispute between wizarding neighbours over a Fanged Geranium.",
+        "points": 0
+      },
+      {
+        "answer": "The second wife of King Henry VIII, Anne Boleyn, was accused by Muggles of being a witch, but was actually a Squib.",
+        "points": 0
+      },
+      {
+        "answer": "A secret task force of Wizards and Muggles helped the Allies to victory in the Second World War.",
+        "points": 0
+      },
+      {
+        "answer": "The Forbidden Forest began life as a wood planted and tended by a centaur herd.",
+        "points": 0
+      },
+      {
+        "answer": "The Great Fire of London in 1666 was not, as Muggles believe, started by a blaze in a bakery in Pudding Lane, but by a young Welsh Green Dragon kept in the basement of the house next door.",
+        "points": 2
+      },
+      {
+        "answer": "The Sorting Hat of Hogwarts was stolen and substituted by a group of delinquent students in 1325. The whereabouts of the real hat remains unknown.",
+        "points": -5
+      },
+      {
+        "answer": "Upon his death in battle in 1762, goblin rebel Vargot was discovered to be a renegade house-elf.",
+        "points": 0
+      },
+      {
+        "answer": "The location and name of Hogwarts were both chosen by Rowena Ravenclaw, who dreamed that a warty hog was leading her to the cliff by the lake.",
+        "points": 2
+      }
+    ],
+    "topic": "",
+    "number": 48,
+    "part": 3,
+    "partNumber": 5,
+    "section": ""
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Artemisia Lufkin (1798 - 1811)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 0
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 1
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 0
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 0
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 49,
+    "part": 3,
+    "partNumber": 6,
+    "section": "6-1"
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Grogan Stump (1811 - 1819)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 0
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 0
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 0
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 1
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 50,
+    "part": 3,
+    "partNumber": 7,
+    "section": "6-2"
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Faris \"Spout-Hole\" Spavin (1865 - 1903)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 0
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 0
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 0
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 0
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 51,
+    "part": 3,
+    "partNumber": 8,
+    "section": "6-3"
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Nobby Leach (1962 - 1968)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 1
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 0
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 0
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 0
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 52,
+    "part": 3,
+    "partNumber": 9,
+    "section": "6-4"
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Millicent Bagnold (1980 - 1990)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 0
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 0
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 0
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 1
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 53,
+    "part": 3,
+    "partNumber": 10,
+    "section": "6-5"
+  },
+  {
+    "text": "Match the Minister for Magic with the major upheaval of his/her term in office, dates of which are marked.",
+    "subquestion": "Cornelius Fudge (1990 - 1996)",
+    "options": [
+      {
+        "answer": "Attempted assassination by centaur",
+        "points": 0
+      },
+      {
+        "answer": "Pureblood riots during Squib Rights marches",
+        "points": 0
+      },
+      {
+        "answer": "Several of the oldest Wizengamot wizards walk out in protest at Minister's appointment",
+        "points": 1
+      },
+      {
+        "answer": "Persistent denial of notorious Dark wizard's existence forces Minister's resignation after notorious Dark wizard appears at the Ministry of Magic",
+        "points": 0
+      },
+      {
+        "answer": "Ghost demonstrations at the Ministry of Magic (\"protest floats\")",
+        "points": 0
+      },
+      {
+        "answer": "A night of large-scale breaches of the International Wizarding Statute of Secrecy",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 54,
+    "part": 3,
+    "partNumber": 11,
+    "section": "6-6"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "There are witches and wizards living in every country in the world.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 55,
+    "part": 3,
+    "partNumber": 12,
+    "section": "7-1"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "Some countries have wizard royal families.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 2
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 56,
+    "part": 3,
+    "partNumber": 13,
+    "section": "7-2"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "The trade in flying carpets has been banned everywhere except the Far East.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 57,
+    "part": 3,
+    "partNumber": 14,
+    "section": "7-3"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "7-4.The world's largest Centre for Alchemical Studies is situated in Egypt.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 58,
+    "part": 3,
+    "partNumber": 15,
+    "section": ""
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "The age at which magic may be performed legally varies from country to country.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 2
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 59,
+    "part": 3,
+    "partNumber": 16,
+    "section": "7-5"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "Inter-country Apparition has been outlawed due to extreme Splinching.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 60,
+    "part": 3,
+    "partNumber": 17,
+    "section": "7-6"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "There is a wizarding school in every country where wizards and witches are found.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 2
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 61,
+    "part": 3,
+    "partNumber": 18,
+    "section": "7-7"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "Portkeys may be arranged between countries only with the consent of both nations' Ministries of Magic.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 62,
+    "part": 3,
+    "partNumber": 19,
+    "section": "7-8"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "It is illegal to send mail-bearing owls across international borders unless the owl has been granted authorisation.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 2
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 63,
+    "part": 3,
+    "partNumber": 20,
+    "section": "7-9"
+  },
+  {
+    "text": "Mark the following statements True or False",
+    "subquestion": "The most persistent offender against the International Statute of Wizarding Secrecy is Scotland.",
+    "options": [
+      {
+        "answer": "TRUE",
+        "points": 0
+      },
+      {
+        "answer": "FALSE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 64,
+    "part": 3,
+    "partNumber": 21,
+    "section": "7-10"
+  },
+  {
+    "text": "Which of the following is CORRECT?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Food can be conjured out of thin air.",
+        "points": -3
+      },
+      {
+        "answer": "Any object can be transfigured into food.",
+        "points": 0
+      },
+      {
+        "answer": "Foodstuffs can be increased, transfigured, summoned from a distance and magically cooked.",
+        "points": 5
+      },
+      {
+        "answer": "It is impossible to make the inedible edible.",
+        "points": 3
+      },
+      {
+        "answer": "Food-related charms are some of the simplest forms of magic.",
+        "points": -1
+      }
+    ],
+    "topic": "",
+    "number": 65,
+    "part": 3,
+    "partNumber": 22,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is INCORRECT?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "An Animagus is able to perform a kind of Self-Transfiguration.",
+        "points": 5
+      },
+      {
+        "answer": "An Animagus is able to perform a kind of Self-Charm.",
+        "points": 0
+      },
+      {
+        "answer": "An Animagus is able to perform a kind of magic that is NEITHER Transfiguration NOR Charm.",
+        "points": -1
+      }
+    ],
+    "topic": "",
+    "number": 66,
+    "part": 3,
+    "partNumber": 23,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is/are POSSIBLE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Curing a poisoned victim without the correct antidote",
+        "points": 5
+      },
+      {
+        "answer": "Curing a cursed victim without the correct counter-spell",
+        "points": 4
+      },
+      {
+        "answer": "Un-transfiguring a person or object without knowing what they were originally",
+        "points": 0
+      },
+      {
+        "answer": "Transfiguring animals into humans",
+        "points": 0
+      },
+      {
+        "answer": "All of the above",
+        "points": -3
+      },
+      {
+        "answer": "None of the above",
+        "points": -1
+      }
+    ],
+    "topic": "",
+    "number": 67,
+    "part": 3,
+    "partNumber": 24,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is/are IMPOSSIBLE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Transfiguring inanimate objects into animate objects",
+        "points": 0
+      },
+      {
+        "answer": "Transfiguring animate objects into inanimate objects",
+        "points": 5
+      },
+      {
+        "answer": "Vanishing inanimate objects",
+        "points": 0
+      },
+      {
+        "answer": "Vanishing animate objects",
+        "points": 2
+      },
+      {
+        "answer": "All of the above",
+        "points": 0
+      },
+      {
+        "answer": "None of the above",
+        "points": -5
+      }
+    ],
+    "topic": "",
+    "number": 68,
+    "part": 3,
+    "partNumber": 25,
+    "section": ""
+  },
+  {
+    "text": "Which TWO of the following policies do you think would best serve the Ministry of Magic in its fight against the Dark Arts?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Destroy all Dark Arts spellbooks",
+        "points": -5
+      },
+      {
+        "answer": "Unforgivable Curses to be taught from year 1 at Hogwarts",
+        "points": -7
+      },
+      {
+        "answer": "Outlaw sale of all goods that can be used in the Dark Arts",
+        "points": -1
+      },
+      {
+        "answer": "Automatic life sentences in Azkaban for all convicted of Dark Arts crimes",
+        "points": 3
+      },
+      {
+        "answer": "Improve Ministry of Magic Public Information Services",
+        "points": 3
+      },
+      {
+        "answer": "Lift jinx on post of Defence Against the Dark Arts teacher at Hogwarts",
+        "points": 0
+      },
+      {
+        "answer": "Persuade Boy Who Lived to front anti-Dark Arts publicity campaign",
+        "points": -1
+      }
+    ],
+    "topic": "",
+    "number": 69,
+    "part": 3,
+    "partNumber": 26,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is TRUE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "To become an Inferius, a person must have been murdered by Dark Magic.",
+        "points": 0
+      },
+      {
+        "answer": "Occlumency can guard against possession.",
+        "points": -1
+      },
+      {
+        "answer": "Dementors are unknown in tropical climates.",
+        "points": 0
+      },
+      {
+        "answer": "A curse is stronger than a hex, which is stronger than a jinx.",
+        "points": 5
+      },
+      {
+        "answer": "If a werewolf mates at the full moon, they will produce a cub rather than a human baby.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 70,
+    "part": 3,
+    "partNumber": 27,
+    "section": ""
+  },
+  {
+    "text": "Which of the following is FALSE?",
+    "subquestion": "",
+    "options": [
+      {
+        "answer": "Patronuses vary in strength according to which animal's form they take.",
+        "points": 5
+      },
+      {
+        "answer": "There is only one documented case of a person surviving the Killing Curse.",
+        "points": -1
+      },
+      {
+        "answer": "Hags have only rudimentary magic, similar to that observed in trolls.",
+        "points": 0
+      },
+      {
+        "answer": "No defensive spell exists against the Cruciatus Curse.",
+        "points": 0
+      },
+      {
+        "answer": "Giants have traditionally allied themselves with the Dark Arts.",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 71,
+    "part": 3,
+    "partNumber": 28,
+    "section": ""
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Boggart",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": 2
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 72,
+    "part": 3,
+    "partNumber": 29,
+    "section": "15-1"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Dementor",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": 2
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 73,
+    "part": 3,
+    "partNumber": 30,
+    "section": "15-2"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Devil's Snare",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": 2
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 74,
+    "part": 3,
+    "partNumber": 31,
+    "section": "15-3"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Draught of Living Death",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": 2
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 75,
+    "part": 3,
+    "partNumber": 32,
+    "section": "15-4"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Imperius Curse",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": 2
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 76,
+    "part": 3,
+    "partNumber": 33,
+    "section": "15-5"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Inferi",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": 2
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 77,
+    "part": 3,
+    "partNumber": 34,
+    "section": "15-6"
+  },
+  {
+    "text": "Match the dangerous being, plant or potion with the spell, substance or object that will conquer it.",
+    "subquestion": "Werewolf",
+    "options": [
+      {
+        "answer": "Aconite",
+        "points": -1
+      },
+      {
+        "answer": "Asphodel",
+        "points": -1
+      },
+      {
+        "answer": "Bezoar",
+        "points": -1
+      },
+      {
+        "answer": "Chocolate",
+        "points": -1
+      },
+      {
+        "answer": "The Patronus Charm",
+        "points": -1
+      },
+      {
+        "answer": "Fire",
+        "points": -1
+      },
+      {
+        "answer": "Phoenix tears",
+        "points": -1
+      },
+      {
+        "answer": "Riddikulus",
+        "points": -1
+      },
+      {
+        "answer": "Sunlight",
+        "points": -1
+      },
+      {
+        "answer": "Will",
+        "points": -1
+      },
+      {
+        "answer": "Wingardium Leviosa",
+        "points": -1
+      },
+      {
+        "answer": "Wormwood",
+        "points": -1
+      },
+      {
+        "answer": "NO CURE",
+        "points": 0
+      }
+    ],
+    "topic": "",
+    "number": 78,
+    "part": 3,
+    "partNumber": 35,
+    "section": "15-7"
+  }
+]

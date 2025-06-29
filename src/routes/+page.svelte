@@ -1,13 +1,13 @@
 <script>
 
-  import WombatCard from '@/components/WOMBATCard.svelte'
+  import WombatCard from '$lib/components/WOMBATCard.svelte'
 
 </script>
 <main class='flex flex-col items-center gap-4 py-4'>
   <h1>Welcome to Wizards' Ordinary Magic and Basic Aptitude Test</h1>
   <p></p>
   <div class='flex gap-8'>
-    <WombatCard title='W.O.M.B.A.T. Grade 1'>
+    <WombatCard title='W.O.M.B.A.T. Grade 1' link='/grade-1'>
       {#snippet content()}
         <enhanced:img src='$lib/assets/wombat-grade-1.png' alt='W.O.M.B.A.T. Grade 1' />
       {/snippet}
@@ -15,7 +15,7 @@
         Take the Grade 1 test
       {/snippet}
     </WombatCard>
-    <WombatCard title='W.O.M.B.A.T. Grade 2'>
+    <WombatCard title='W.O.M.B.A.T. Grade 2' link='/grade-2'>
       {#snippet content()}
         <enhanced:img src='$lib/assets/wombat-grade-1.png' alt='W.O.M.B.A.T. Grade 1' />
       {/snippet}
@@ -23,7 +23,7 @@
         Take the Grade 2 test
       {/snippet}
     </WombatCard>
-    <WombatCard title='W.O.M.B.A.T. Grade 3'>
+    <WombatCard title='W.O.M.B.A.T. Grade 3' link='/grade-3'>
       {#snippet content()}
         <enhanced:img src='$lib/assets/wombat-grade-1.png' alt='W.O.M.B.A.T. Grade 1' />
       {/snippet}

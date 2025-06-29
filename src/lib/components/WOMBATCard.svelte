@@ -1,15 +1,16 @@
 <script lang='ts'>
   import type { Snippet } from 'svelte'
+  import Button from '$lib/components/ui/button/button.svelte'
   import * as Card from '$lib/components/ui/card/index.js'
-  import Button from '@/components/ui/button/button.svelte'
 
   type Props = {
     title: string
     content: Snippet
     footer: Snippet
+    link: string
   }
 
-  const { title, content, footer }: Props = $props()
+  const { title, content, footer, link }: Props = $props()
 
 </script>
 
@@ -24,7 +25,7 @@
   </Card.Content>
   <Card.Footer>
     <Card.Action class='w-full'>
-      <a href='/about'>
+      <a href={link}>
         <Button class='w-full cursor-pointer'>{@render footer()}</Button>
       </a>
     </Card.Action>
