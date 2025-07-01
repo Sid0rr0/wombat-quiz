@@ -2,26 +2,42 @@ import { browser } from '$app/environment'
 import { onMount } from 'svelte'
 import { writable } from 'svelte/store'
 
-export const initialQuizState = {
+interface QuizState {
+  currentQuestionIndex: number
+  answers: number[]
+  totalScore: number
+  completed: boolean
+  grade: number
+}
+
+export const initialQuizState: QuizState = {
   currentQuestionIndex: 0,
   answers: [],
   totalScore: 0,
   completed: false,
+  grade: 1,
 }
 
-function copyInitialQuizState() {
-  return JSON.parse(JSON.stringify(initialQuizState))
+function copyInitialQuizState(grade = 1): QuizState {
+  return JSON.parse(JSON.stringify({ ...initialQuizState, grade }))
+}
+
+function getQuizStateKey(grade: number): string {
+  return `quizStateGrade${grade}`
 }
 
 export default function quizStore() {
-  let quizState = null
-  if (browser) {
-    quizState = localStorage.getItem('quizState')
-  }
+  const quizState = writable(copyInitialQuizState())
+  const { subscribe, set, update } = quizState
+  let grade = 1
+  subscribe(value => grade = value.grade)
 
-  const { subscribe, set, update } = writable(
-    quizState ? JSON.parse(quizState) : copyInitialQuizState(),
-  )
+  if (browser) {
+    const storedQuizState = localStorage.getItem(getQuizStateKey(grade))
+    if (storedQuizState) {
+      quizState.set(JSON.parse(storedQuizState))
+    }
+  }
 
   function nextQuestion() {
     update((state) => {
@@ -38,7 +54,7 @@ export default function quizStore() {
 
   onMount(() => {
     subscribe((state) => {
-      localStorage.setItem('quizState', JSON.stringify(state))
+      localStorage.setItem(getQuizStateKey(state.grade), JSON.stringify(state))
     })
   })
 
@@ -60,8 +76,32 @@ export default function quizStore() {
   }
 
   function reset() {
-    set(copyInitialQuizState())
-    localStorage.setItem('quizState', JSON.stringify(initialQuizState))
+    quizState.update((state) => {
+      localStorage.setItem(getQuizStateKey(grade), JSON.stringify(state))
+      return state
+    })
+  }
+
+  function setGrade(newGrade: number) {
+    update((state) => {
+      if (browser) {
+        const storedQuizState = localStorage.getItem(getQuizStateKey(newGrade))
+        if (storedQuizState) {
+          return JSON.parse(storedQuizState)
+        }
+      }
+
+      const newState = {
+        ...state,
+        grade: newGrade,
+      }
+
+      if (browser) {
+        localStorage.setItem(getQuizStateKey(newGrade), JSON.stringify(newState))
+      }
+
+      return newState
+    })
   }
 
   return {
@@ -73,5 +113,7 @@ export default function quizStore() {
     reset,
     submitAnswer,
     initialQuizState: copyInitialQuizState(),
+    setGrade,
+    quizState,
   }
 }

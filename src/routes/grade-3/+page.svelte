@@ -1,6 +1,7 @@
 <script lang='ts'>
   import type { PageProps } from './$types'
   import ParchmentBG from '$lib/components/ParchmentBG.svelte'
+  // import { onMount } from 'svelte'
   import Quiz from '@/lib/components/Quiz.svelte'
 
   const { data }: PageProps = $props()
@@ -8,7 +9,7 @@
 </script>
 
 <ParchmentBG class='mt-4 xl:mt-16'>
-  <Quiz data={data} grade={1} />
+  <Quiz data={data} grade={3} />
 
 </ParchmentBG>
 <!--

@@ -8,7 +8,7 @@
 </script>
 
 <ParchmentBG class='mt-4 xl:mt-16'>
-  <Quiz data={data} grade={1} />
+  <Quiz data={data} grade={2} />
 
 </ParchmentBG>
 <!--
