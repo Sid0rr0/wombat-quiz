@@ -1,28 +1,27 @@
 <script lang='ts'>
+  import { goto } from '$app/navigation'
   import { onMount } from 'svelte'
   import Button from '@/lib/components/ui/button/button.svelte'
   import quizStore from '@/stores/quizState'
 
   type Props = {
-    data: {
-      questions: {
-        text: string
-        subquestion: string
-        options: {
-          answer: string
-          points: number
-        }[]
-        topic: string
-        number: number
-        part: number
-        partNumber: number
-        section: string
+    questions: {
+      text: string
+      subquestion: string
+      options: {
+        answer: string
+        points: number
       }[]
-    }
+      topic: string
+      number: number
+      part: number
+      partNumber: number
+      section: string
+    }[]
     grade: number
   }
 
-  const { data, grade }: Props = $props()
+  const { questions, grade }: Props = $props()
   const { previousQuestion, nextQuestion, submitAnswer, reset, quizState, setGrade } = quizStore()
 
   setGrade(grade)
@@ -49,6 +48,11 @@
   }
 
   function goToNextQuestion() {
+    if ($quizState.completed) {
+      nextQuestion()
+      return
+    }
+
     if (isAnswerSubmitted) {
       isAnswerSubmitted = false
       selectedAnswerIndex = -1
@@ -62,6 +66,10 @@
       selectedAnswerIndex = $quizState.answers[$quizState.currentQuestionIndex]
     }
   })
+
+  function viewResults() {
+    goto(`/grade/${grade}/results`)
+  }
 </script>
 
 <div class='flex flex-col xl:flex-row gap-4 justify-between items-center w-full mb-8'>
@@ -72,11 +80,11 @@
 <!-- <p class='mb-4'>Welcome to the Grade 1 quiz section!</p> -->
 
 <div class='flex flex-col items-center gap-4 mb-4 px-8 text-center'>
-  <h2>{data.questions[$quizState.currentQuestionIndex]?.text}</h2>
-  <h3>{data.questions[$quizState.currentQuestionIndex]?.subquestion}</h3>
+  <h2>{questions[$quizState.currentQuestionIndex]?.text}</h2>
+  <h3>{questions[$quizState.currentQuestionIndex]?.subquestion}</h3>
 
   <div class='flex flex-col gap-2 list-[lower-alpha]'>
-    {#each data.questions[$quizState.currentQuestionIndex]?.options as option, i}
+    {#each questions[$quizState.currentQuestionIndex]?.options as option, i}
       <label
         for={`answer${i}`}
         class={[
@@ -108,22 +116,28 @@
 </div>
 
 <div class='flex justify-between w-full max-w-xl my-4'>
-  <Button class='cursor-pointer' onclick={goToPreviousQuestion}>Previous Question</Button>
+  <Button class='cursor-pointer' disabled={$quizState.currentQuestionIndex === 0} onclick={goToPreviousQuestion}>Previous Question</Button>
   {#if isAnswerSubmitted}
     <Button class='cursor-pointer' onclick={goToNextQuestion}>Next Question</Button>
   {:else}
+    <!-- TODO disable at the end -->
     <Button
       class='cursor-pointer'
       disabled={selectedAnswerIndex === -1}
-      onclick={() => submit(selectedAnswerIndex, data.questions[$quizState.currentQuestionIndex]?.options[selectedAnswerIndex]?.points || 0)}
+      onclick={() => submit(selectedAnswerIndex, questions[$quizState.currentQuestionIndex]?.options[selectedAnswerIndex]?.points || 0)}
     >
       Submit Answer
     </Button>
   {/if}
 </div>
 
-<div class='flex flex-col items-center gap-2 mt-4'>
-  <span>isAnswerSubmitted: {isAnswerSubmitted}</span>
+<div class='flex flex-col items-center gap-4 mt-4'>
+  {#if $quizState.completed}
+    <h2 class='text-2xl font-bold'>Quiz Completed!</h2>
+    <p class='text-lg'>You have answered all questions.</p>
+    <Button class='cursor-pointer' onclick={viewResults}>View Results</Button>
+  {/if}
+  <!-- <span>isAnswerSubmitted: {isAnswerSubmitted}</span>
   <span>selectedAnswerIndex: {selectedAnswerIndex}</span>
-  <span>grade: {$quizState.grade}</span>
+  <span>grade: {$quizState.grade}</span> -->
 </div>

@@ -104,6 +104,16 @@ export default function quizStore() {
     })
   }
 
+  function setQuestionIndex(index: number) {
+    update((state) => {
+      // TODO change this to a more robust check
+      if (index >= 0 && index < 25) {
+        state.currentQuestionIndex = index
+      }
+      return state
+    })
+  }
+
   return {
     subscribe,
     set,
@@ -115,5 +125,6 @@ export default function quizStore() {
     initialQuizState: copyInitialQuizState(),
     setGrade,
     quizState,
+    setQuestionIndex,
   }
 }

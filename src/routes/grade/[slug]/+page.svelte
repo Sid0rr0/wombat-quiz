@@ -8,11 +8,6 @@
 </script>
 
 <ParchmentBG class='mt-4 xl:mt-16'>
-  <Quiz data={data} grade={1} />
+  <Quiz questions={data.questions} grade={data.grade} />
 
 </ParchmentBG>
-<!--
-<h1 class='text-3xl font-bold mb-4'>Grade 1</h1>
-<p class='mb-4'>Welcome to the Grade 1 quiz section!</p>
-<p class='mb-4'>Here you can find quizzes designed for first graders.</p>
-<p class='mb-4'>Have fun learning!</p> -->
