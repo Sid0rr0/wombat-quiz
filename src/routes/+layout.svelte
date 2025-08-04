@@ -19,6 +19,6 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-<div class='flex flex-col items-center justify-center min-h-screen'>
+<div class='flex flex-col items-center justify-center min-h-screen max-w-screen overflow-hidden'>
   {@render children()}
 </div>

@@ -79,7 +79,7 @@
 </div>
 <!-- <p class='mb-4'>Welcome to the Grade 1 quiz section!</p> -->
 
-<div class='flex flex-col items-center gap-4 mb-4 px-8 text-center'>
+<div class='flex flex-col items-center gap-4 mb-4 px-2 md:px-8 text-center'>
   <h2>{questions[$quizState.currentQuestionIndex]?.text}</h2>
   <h3>{questions[$quizState.currentQuestionIndex]?.subquestion}</h3>
 

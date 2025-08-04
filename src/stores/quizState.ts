@@ -76,9 +76,12 @@ export default function quizStore() {
   }
 
   function reset() {
-    quizState.update((state) => {
-      localStorage.setItem(getQuizStateKey(grade), JSON.stringify(state))
-      return state
+    quizState.update(() => {
+      localStorage.setItem(getQuizStateKey(grade), JSON.stringify(initialQuizState))
+      return {
+        ...initialQuizState,
+        grade,
+      }
     })
   }
 
