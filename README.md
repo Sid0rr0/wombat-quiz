@@ -1,18 +1,6 @@
-# sv
+# Wizards' Ordinary Magic and Basic Aptitude Test (WOMBAT)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+Quiz app containing questions from [W.O.M.B.A.T.](https://harrypotter.fandom.com/wiki/Wizards%27_Ordinary_Magic_and_Basic_Aptitude_Test)
 
 ## Developing
 

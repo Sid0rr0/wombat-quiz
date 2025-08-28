@@ -21,7 +21,9 @@
     </Card.Title>
   </Card.Header>
   <Card.Content>
-    {@render content()}
+    <a href={link}>
+      {@render content()}
+    </a>
   </Card.Content>
   <Card.Footer>
     <Card.Action class='w-full'>

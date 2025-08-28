@@ -12,7 +12,7 @@
 <nav class='w-full flex justify-center gap-4 px-8 py-2'>
   <a href='/'>Home</a>
   <a href='/about'>About</a>
-  <a href='/contact'>Contact</a>
+  <a href='/leaderboard'>Leaderboard</a>
 </nav>
 
 <div id='stars'></div>
