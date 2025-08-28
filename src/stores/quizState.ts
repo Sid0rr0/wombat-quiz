@@ -8,6 +8,7 @@ interface QuizState {
   totalScore: number
   completed: boolean
   grade: number
+  numberOfQuestions: number
 }
 
 export const initialQuizState: QuizState = {
@@ -16,6 +17,7 @@ export const initialQuizState: QuizState = {
   totalScore: 0,
   completed: false,
   grade: 1,
+  numberOfQuestions: 25,
 }
 
 function copyInitialQuizState(grade = 1): QuizState {
@@ -41,7 +43,7 @@ export default function quizStore() {
 
   function nextQuestion() {
     update((state) => {
-      if (state.currentQuestionIndex < 24) {
+      if (state.currentQuestionIndex < state.numberOfQuestions - 1) {
         state.currentQuestionIndex += 1
       }
       else {
@@ -76,16 +78,18 @@ export default function quizStore() {
   }
 
   function reset() {
-    quizState.update(() => {
-      localStorage.setItem(getQuizStateKey(grade), JSON.stringify(initialQuizState))
+    quizState.update((state) => {
+      localStorage.setItem(getQuizStateKey(state.grade), JSON.stringify(initialQuizState))
       return {
         ...initialQuizState,
-        grade,
+        answers: [],
+        grade: state.grade,
+        numberOfQuestions: state.numberOfQuestions,
       }
     })
   }
 
-  function setGrade(newGrade: number) {
+  function setGrade(newGrade: number, numberOfQuestions: number = 25) {
     update((state) => {
       if (browser) {
         const storedQuizState = localStorage.getItem(getQuizStateKey(newGrade))
@@ -97,6 +101,7 @@ export default function quizStore() {
       const newState = {
         ...state,
         grade: newGrade,
+        numberOfQuestions,
       }
 
       if (browser) {
@@ -109,8 +114,7 @@ export default function quizStore() {
 
   function setQuestionIndex(index: number) {
     update((state) => {
-      // TODO change this to a more robust check
-      if (index >= 0 && index < 25) {
+      if (index >= 0 && index < state.numberOfQuestions) {
         state.currentQuestionIndex = index
       }
       return state

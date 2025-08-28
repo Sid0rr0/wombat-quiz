@@ -24,7 +24,7 @@
   const { questions, grade }: Props = $props()
   const { previousQuestion, nextQuestion, submitAnswer, reset, quizState, setGrade } = quizStore()
 
-  setGrade(grade)
+  setGrade(grade, questions.length)
 
   let isAnswerSubmitted = $state(false)
   let selectedAnswerIndex = $state(-1)
@@ -53,7 +53,7 @@
       return
     }
 
-    if (isAnswerSubmitted) {
+    if ($quizState.currentQuestionIndex === $quizState.answers.length - 1) {
       isAnswerSubmitted = false
       selectedAnswerIndex = -1
     }
@@ -130,7 +130,7 @@
     </Button>
   {/if}
 </div>
-
+<!-- TODO test end of quiz -->
 <div class='flex flex-col items-center gap-4 mt-4'>
   {#if $quizState.completed}
     <h2 class='text-2xl font-bold'>Quiz Completed!</h2>

@@ -2,12 +2,20 @@
   import type { PageProps } from './$types'
   import { goto } from '$app/navigation'
   import ParchmentBG from '$lib/components/ParchmentBG.svelte'
+  import { onMount } from 'svelte'
   import { Button } from '@/lib/components/ui/button'
   import quizStore from '@/stores/quizState'
 
   const { data }: PageProps = $props()
+
   const { reset, quizState, setQuestionIndex, setGrade } = quizStore()
-  const grade = Number.parseInt(data.grade)
+  const grade = data.grade
+
+  onMount(() => {
+    if (data.numberOfQuestions !== $quizState.answers.length) {
+      goto(`/grade/${grade}`)
+    }
+  })
 
   setGrade(grade)
 
