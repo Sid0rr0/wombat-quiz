@@ -17,7 +17,7 @@
     </WombatCard>
     <WombatCard title='W.O.M.B.A.T. Grade 2' link='/grade/2'>
       {#snippet content()}
-        <enhanced:img src='$lib/assets/wombat-grade-2.png' alt='W.O.M.B.A.T. Grade 2' />
+        <enhanced:img src='$lib/assets/wombat-grade-2.jpg' alt='W.O.M.B.A.T. Grade 2' />
       {/snippet}
       {#snippet footer()}
         Take the Grade 2
@@ -25,7 +25,7 @@
     </WombatCard>
     <WombatCard title='W.O.M.B.A.T. Grade 3' link='/grade/3'>
       {#snippet content()}
-        <enhanced:img src='$lib/assets/wombat-grade-3.png' alt='W.O.M.B.A.T. Grade 3' />
+        <enhanced:img src='$lib/assets/wombat-grade-3.jpg' alt='W.O.M.B.A.T. Grade 3' />
       {/snippet}
       {#snippet footer()}
         Take the Grade 3
