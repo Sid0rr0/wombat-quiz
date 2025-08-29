@@ -30,7 +30,7 @@ function getQuizStateKey(grade: number): string {
 
 export default function quizStore() {
   const quizState = writable(copyInitialQuizState())
-  const { subscribe, set, update } = quizState
+  const { subscribe, update } = quizState
   let grade = 1
   subscribe(value => grade = value.grade)
 
@@ -121,10 +121,15 @@ export default function quizStore() {
     })
   }
 
+  function setIsCompleted() {
+    update((state) => {
+      state.completed = true
+      return state
+    })
+  }
+
   return {
     subscribe,
-    set,
-    update,
     previousQuestion,
     nextQuestion,
     reset,
@@ -133,5 +138,6 @@ export default function quizStore() {
     setGrade,
     quizState,
     setQuestionIndex,
+    setIsCompleted,
   }
 }

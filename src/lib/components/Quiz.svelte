@@ -1,5 +1,4 @@
 <script lang='ts'>
-  import { goto } from '$app/navigation'
   import { onMount } from 'svelte'
   import Button from '@/lib/components/ui/button/button.svelte'
   import quizStore from '@/stores/quizState'
@@ -22,17 +21,22 @@
   }
 
   const { questions, grade }: Props = $props()
-  const { previousQuestion, nextQuestion, submitAnswer, reset, quizState, setGrade } = quizStore()
+  const { previousQuestion, nextQuestion, submitAnswer, reset, quizState, setGrade, setIsCompleted } = quizStore()
 
   setGrade(grade, questions.length)
 
   let isAnswerSubmitted = $state(false)
+  const isLastQuestion = $derived($quizState.currentQuestionIndex === questions.length - 1)
   let selectedAnswerIndex = $state(-1)
 
   // TODO possibly save the answer even if the answer is not yet submitted (cant just push it, check for q index)
   function submit(answerIndex: number, answerPoints: number) {
     submitAnswer(answerIndex, answerPoints)
     isAnswerSubmitted = true
+
+    if (isLastQuestion) {
+      setIsCompleted()
+    }
   }
 
   function resetQuiz() {
@@ -66,10 +70,6 @@
       selectedAnswerIndex = $quizState.answers[$quizState.currentQuestionIndex]
     }
   })
-
-  function viewResults() {
-    goto(`/grade/${grade}/results`)
-  }
 </script>
 
 <div class='flex flex-col xl:flex-row gap-4 justify-between items-center w-full mb-8'>
@@ -117,25 +117,23 @@
 
 <div class='flex justify-between w-full max-w-xl my-4'>
   <Button class='cursor-pointer' disabled={$quizState.currentQuestionIndex === 0} onclick={goToPreviousQuestion}>Previous Question</Button>
-  {#if isAnswerSubmitted}
+  {#if isAnswerSubmitted && !isLastQuestion}
     <Button class='cursor-pointer' onclick={goToNextQuestion}>Next Question</Button>
   {:else}
-    <!-- TODO disable at the end -->
     <Button
       class='cursor-pointer'
-      disabled={selectedAnswerIndex === -1}
+      disabled={selectedAnswerIndex === -1 || $quizState.completed}
       onclick={() => submit(selectedAnswerIndex, questions[$quizState.currentQuestionIndex]?.options[selectedAnswerIndex]?.points || 0)}
     >
       Submit Answer
     </Button>
   {/if}
 </div>
-<!-- TODO test end of quiz -->
 <div class='flex flex-col items-center gap-4 mt-4'>
   {#if $quizState.completed}
     <h2 class='text-2xl font-bold'>Quiz Completed!</h2>
     <p class='text-lg'>You have answered all questions.</p>
-    <Button class='cursor-pointer' onclick={viewResults}>View Results</Button>
+    <Button class='cursor-pointer' href={`/grade/${grade}/results`}>View Results</Button>
   {/if}
   <!-- <span>isAnswerSubmitted: {isAnswerSubmitted}</span>
   <span>selectedAnswerIndex: {selectedAnswerIndex}</span>
