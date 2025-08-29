@@ -12,7 +12,7 @@
   const grade = data.grade
 
   onMount(() => {
-    if (data.numberOfQuestions !== $quizState.answers.length) {
+    if (data.questions.length !== $quizState.answers.length) {
       goto(`/grade/${grade}`)
     }
   })
@@ -29,21 +29,21 @@
     goto(`/grade/${grade}`)
   }
 
-  function goToNextQuiz() {
-    const nextGrade = grade + 1
-    goto(`/grade/${nextGrade}`)
-  }
+  const maxPoints = $derived(data.questions.reduce((sum, q) => {
+    const maxOptionPoints = Math.max(...q.options.map(o => o.points))
+    return sum + maxOptionPoints
+  }, 0))
 </script>
 
-<ParchmentBG class='mt-4 xl:mt-16 flex flex-col items-center gap-8'>
+<ParchmentBG class='mt-4 xl:mt-16 flex flex-col items-center justify-center gap-8 min-h-[75vh]'>
   <h1>Results for Grade {grade}</h1>
 
-  <h2>Your score: {$quizState.totalScore} points</h2>
+  <h2>Your score: {$quizState.totalScore} out of {maxPoints} points</h2>
   <div class='flex justify-between gap-8'>
     <Button class='cursor-pointer' onclick={goBackToQuiz}>Return to the quiz</Button>
     <Button class='cursor-pointer' onclick={resetQuiz}>Reset Grade {grade} Quiz</Button>
     {#if grade < 3}
-      <Button class='cursor-pointer' onclick={goToNextQuiz}>Go to next Grade</Button>
+      <Button class='cursor-pointer' href={`/grade/${grade + 1}`}>Go to next Grade</Button>
     {/if}
   </div>
 </ParchmentBG>
